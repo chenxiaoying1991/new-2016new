@@ -1,0 +1,601 @@
+body {
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    background: #f2f2f2;
+    font-size: 12px;
+}
+
+.title {
+    overflow: hidden;
+    height: 38px;
+    background: url("../img/bj_02.png") repeat-x;
+    font-size: 12px;
+}
+
+.homePage {
+    line-height: 38px;
+    margin-left: 200px;
+
+}
+
+.right, .nav_right {
+    float: right;
+    margin-right: 200px;
+}
+
+.right li {
+    line-height: 38px;
+    margin-left: 51px;
+    float: left;
+}
+
+/**/
+.nav {
+    height: 70px;
+    background: url("../img/nav_03.png") repeat-x;
+    overflow: hidden;
+}
+
+.span_one {
+    position: absolute;
+    background: url("../img/a3_03.png") no-repeat;
+    margin-left: 200px;
+    width: 165px;
+    height: 143px;
+    z-index: 11;
+}
+
+.nav_right li {
+    line-height: 70px;
+    margin-left: 51px;
+    float: left;
+}
+
+.page {
+    position: relative;
+    height: 504px;
+
+}
+
+.page h3 {
+    font-size: 36px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    position: absolute;
+    top: 110px;
+    left: 900px;
+}
+
+.picture {
+    height: 100%;
+    background: url("../img/a1_02.png") no-repeat;
+    background-size: cover;
+}
+
+.span_two {
+    position: absolute;
+    top: 185px;
+    left: 900px;
+    width: 424px;
+    height: 101px;
+    background: url("../img/a22_03_02.png") no-repeat;
+    background-size: contain;
+
+}
+
+.second {
+    height: 357px;
+    border-top: 33px solid gainsboro;
+
+}
+
+.second h1 {
+    width: 166px;
+    height: 37px;
+    margin: 60px auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.second .p_one {
+    width: 361px;
+    font-size: 26px;
+
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: -35px;
+}
+
+.second .p_one a {
+    color: #0086f8;
+}
+
+.second .p_two {
+    margin: 0 auto;
+    width: 890px;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: SimSun, "Microsoft YaHei";
+    font-weight: bold;
+
+}
+
+.second .p_three {
+    margin: 0 auto;
+    width: 328px;
+    font-size: 16px;
+    font-family: SimSun, "Microsoft YaHei";
+    font-weight: bold;
+}
+
+.second .p_four {
+    width: 473px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin-top: 25px;
+    font-family: SimSun, "Microsoft YaHei";
+    font-weight: bold;
+}
+
+.highSchool {
+    width: 100%;
+    height: 621px;
+    background: url("../img/a5_03.png") no-repeat;
+    position: relative;
+}
+
+.high_one {
+    width: 370px;
+    height: 371px;
+    background: url("../img/a6_03.png") no-repeat;
+    position: absolute;
+    top: 85px;
+    left: 277px;
+    z-index: 12;
+}
+
+.high_oneContent {
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 69px;
+    left: 66px;
+    font-family: "Microsoft YaHei";
+    font-weight: 500;
+
+}
+
+.high_oneContent h1 {
+    font-size: 28px;
+    color: #3a93ff;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+
+}
+
+.high_four {
+    position: absolute;
+    top: 76px;
+    left: 27px;
+    font-size: 14px;
+}
+
+.high_four p {
+    line-height: 24px;
+    text-align: center;
+}
+
+.high_two {
+    width: 370px;
+    height: 371px;
+    background: url("../img/a7_06.png") no-repeat;
+    position: absolute;
+    top: 162px;
+    left: 606px;
+    z-index: 11;
+}
+
+.high_three {
+    width: 384px;
+    height: 390px;
+    background: url("../img/a8_07.png") no-repeat;
+    position: absolute;
+    top: 192px;
+    left: 960px;
+}
+
+/*主要内容*/
+.import {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.import_title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 63px;
+}
+
+.import_content {
+    font-size: 24px;
+    text-align: center;
+}
+
+.import_one, .import_two {
+    width: 100%;
+    height: 343px;
+    margin-top: 30px;
+    /*overflow: hidden;*/
+}
+
+.import_oneLeft {
+    display: inline-block;
+    width: 608px;
+    height: 343px;
+    float: left;
+    /*background: url("../img/a9_03.png") no-repeat;*/
+}
+
+.import_oneRight {
+    /*margin-left: 608px;*/
+    display: inline-block;
+    width: 328px;
+    height: 293px;
+    background: #fff;
+    padding: 25px 45px 25px 36px;
+    float: left;
+
+}
+
+.taste {
+    font-size: 28px;
+    color: #3a93ff;
+}
+
+.student {
+    font-size: 16px;
+    color: #81b4ff;
+}
+
+/*第二个*/
+.import_twoLeft {
+    float: left;
+    width: 400px;
+    height: 343px;
+    background: #fff;
+    padding-left: 50px;
+
+}
+
+.import_twoRight {
+    width: 608px;
+    height: 343px;
+    margin-left: 400px;
+    background: url("../img/a10_03.png") no-repeat;
+}
+
+.new {
+    font-size: 14px;
+    margin-top: 15px;
+    /*padding: 0 44px 0 34px;*/
+    /*text-align: justify;*/
+}
+
+/* 本例子css */
+.import_oneLeft {
+    overflow: hidden;
+    position: relative;
+}
+
+.import_oneLeft .hd {
+    height: 15px;
+    overflow: hidden;
+    position: absolute;
+    right: 295px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.import_oneLeft .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+}
+
+.import_oneLeft .hd ul li {
+    float: left;
+    margin-right: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    line-height: 14px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+
+.import_oneLeft .hd ul li.on {
+    background: #f00;
+    color: #fff;
+}
+
+.import_oneLeft .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+
+.import_oneLeft .bd li {
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.import_oneLeft .bd img {
+    display: block;
+}
+
+.import_oneLeft .prevStop {
+    display: none;
+}
+
+.import_oneLeft .nextStop {
+    display: none;
+}
+
+/*疑问解答*/
+.answer {
+    width: 100%;
+    height: 7.5rem;
+    background: url("../img/a12_02.png") no-repeat;
+    position: relative;
+    margin-top: 44px;
+    background-size:cover ;
+}
+
+.answer_one {
+    font-size: 40px;
+    position: absolute;
+    top: 27px;
+    left: 608px;
+}
+.answer_two {
+    position: absolute;
+    top: 246px;
+    left: 256px;
+    width: 290px;
+}
+
+.answer_three {
+    position: absolute;
+    top: 380px;
+    left: 660px;
+    width: 280px;
+}
+
+.answer_four {
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    width: 280px;
+}
+
+/*表格*/
+.information {
+    width: 100%;
+    height: 413px;
+    margin-top: 44px;
+    background: #eec857;
+    padding-top: 56px;
+}
+
+.information_one {
+    text-align: center;
+    font-size: 40px;
+}
+
+.infor {
+    width: 942px;
+    margin: 55px auto 0;
+    font-size: 16px;
+
+}
+
+.infor input {
+    width: 201px;
+    font-size: 12px;
+    margin: 0 55px 0 10px;
+    padding: 3px 5px;
+}
+
+.big {
+    display: inline-block;
+    float: left;
+
+}
+
+.next_Next {
+    margin: 20px auto 40px;
+    width: 100%;
+
+}
+
+.but {
+    padding: 5px 30px;
+    border-radius: 20px;
+    background: #3a93ff;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+
+}
+
+/**/
+.tuiJ_one {
+    margin: 68px auto 45px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.picScroll-left {
+    width: 900px;
+    height: 162px;
+    /*overflow: hidden;*/
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.picScroll-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+    margin: 0 10px;
+    float: left;
+    _display: inline;
+    overflow: hidden;
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic {
+    width: 288px;
+    height: 162px;
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .pic img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.picScroll-left .bd ul li .pic a:hover img {
+    border-color: #999;
+}
+
+.picScroll-left .bd ul li .title {
+    line-height: 24px;
+}
+
+/*.picScroll-left .hd {*/
+    /*position: relative;*/
+    /*height: 30px;*/
+/*}*/
+
+.prev,.next {
+    display: block;
+    width: 35px;
+    height: 53px;
+    cursor: pointer;
+}
+.prev{
+    position: absolute;
+    top: 60px;
+    left: -47px;
+    background: url("../img/btn-left_03.png")no-repeat;
+}
+.next{
+    position: absolute;
+    top: 60px;
+    right: -90px;
+    background: url("../img/btn-right_03.png")no-repeat;
+}
+
+.picScroll-left .hd ul {
+    float: right;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+}
+
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+}
+
+
+.tuiJ_three{
+    padding: 5px 15px;
+    width: 120px;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 15px;
+    font-size: 18px;
+    text-align: center;
+    background: #f9e715;
+}
+.bottom{
+    width: 1167px;
+    height: 128px;
+
+    margin: 50px auto 0;
+}
+.bottom ul li{
+    float: left;
+    height: 100%;
+    padding: 0 35px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #d1d1d1;
+}
+.bottom ul li span{
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin: 0 auto;
+    background: url("../img/xuebitu-1_01.png")no-repeat;
+}
+.bottom ul li:nth-child(2) span{
+    background-position: 0px -46px;
+}
+.bottom ul li:nth-child(3) span{
+    background-position: 0px -92px;
+}
+.bottom ul li:nth-child(4) span{
+    width: 62px;
+    height: 62px;
+    background: url("../img/a19_03.png")no-repeat;
+}
+.bottom ul li:nth-child(5) span{
+    width: 136px;
+    height: 65px;
+    background: url("../img/a20_03.png")no-repeat;
+}
+.bottom ul li p{
+    text-align: center;
+    margin-top: 15px;
+}
+.bottom ul li p:nth-child(even){
+    font-size: 16px;
+}
+.bottom ul li p:nth-child(odd){
+    font-size: 18px;
+}
+
+
+.bbbottom{
+    width: 100%;
+    height: 24px;
+    padding-top: 16px;
+    background: #e4e4e4;
+}
+.bbbottom img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
