@@ -367,22 +367,22 @@ body {
 }
 .answer_two {
     position: absolute;
-    top: 246px;
-    left: 256px;
+    top: 41%;
+    left:24%;
     width: 290px;
 }
 
 .answer_three {
     position: absolute;
-    top: 380px;
-    left: 660px;
+    top: 57%;
+    left: 53%;
     width: 280px;
 }
 
 .answer_four {
     position: absolute;
-    top: 350px;
-    left: 1000px;
+    top: 50%;
+    left: 78%;
     width: 280px;
 }
 
