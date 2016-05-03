@@ -123,21 +123,13 @@ body {
 }
 
 .second .p_three {
-    margin: 0 auto;
-    width: 328px;
+    text-align: center;
     font-size: 16px;
     font-family: SimSun, "Microsoft YaHei";
     font-weight: bold;
 }
 
-.second .p_four {
-    width: 473px;
-    margin: 0 auto;
-    font-size: 16px;
-    margin-top: 25px;
-    font-family: SimSun, "Microsoft YaHei";
-    font-weight: bold;
-}
+
 
 .highSchool {
     width: 100%;
